@@ -1,0 +1,35 @@
+@import '../../styles/colors';
+
+.wrapperContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25rem;
+  width: 30rem;
+  text-align: center;
+
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+}
+
+.titleText {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.inputContainer {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.searchResultContainer {
+  text-align: left;
+}
+
+
